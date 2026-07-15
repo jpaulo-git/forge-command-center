@@ -1,4 +1,4 @@
-# forge
+# Forge
 A personal productivity command center designed to combine task management, habit tracking, goal planning, and personal reflection into one customizable application.
 
 ## Overview
