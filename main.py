@@ -1,6 +1,9 @@
 from utils import print_header  
 
 def main():
+# Entry point for the Forge application
+# Displays the menu and routes users to each module
+
     while True:
         try:
             print_header("Forge")
