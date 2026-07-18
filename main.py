@@ -8,13 +8,13 @@ def main():
         try:
             print_header("Forge")
             print()
-            print()
             print("1. Tasks")
             print("2. Habits (Coming Soon)")
             print("3. Goals (Coming Soon)")
             print("4. Journal (Coming Soon)")
             print("5. Exit")
-
+            print()
+            
             choice = input("Enter your choice: ")
 
             if choice == "1":
