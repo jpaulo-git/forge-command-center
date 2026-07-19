@@ -1,13 +1,15 @@
+import os
+
 def print_header(title):
     # Prints a header with the given title
-    print("========================")
+    print("\n========================")
     print(f"         {title}")
     print("========================")
 
 def clear_screen():
     # Clears the screen
-    pass
+    os.system("cls" if os.name == "nt" else "clear")
 
 def pause():
     # Pauses the screen
-    pass
+    input("\nPress Enter to continue...")
